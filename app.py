@@ -62,13 +62,3 @@ if __name__ == "__main__":
     t.start()
     port = int(os.getenv("PORT", 8080))
     app.run(host="0.0.0.0", port=port, threaded=True)
-from flask import Flask
-
-app = Flask(__name__)
-
-@app.route("/")
-def home():
-    return "Hello Bora 🚀, uygulaman çalışıyor!"
-
-if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=5000)
