@@ -1,5 +1,6 @@
-flask==3.0.3
+flask==2.3.2
 gunicorn==21.2.0
-yfinance==0.2.43
-pandas==2.2.2
-numpy==2.0.0
+requests==2.31.0
+beautifulsoup4==4.12.2
+pandas==2.1.4 --only-binary=:all:
+numpy==1.26.4 --only-binary=:all:
